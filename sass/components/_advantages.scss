@@ -1,0 +1,34 @@
+.advantages-section{
+   background-color:  $color__bkg--mid-section;
+   padding-top: 20px;
+}
+.advantages-container{
+    outline: 1px solid magenta;
+}
+.advantages-item{
+    outline: 1px solid tomato;
+}
+.advantages-item__number {
+    font-family: $secondaryFont;
+    font-weight: $normal-weight;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: $color__accent;
+}
+.advantages-item__number::before{
+    content: "";
+    width: 33px;
+    height: 50px;
+    background-image: url("https:../../../../images/advantages-icon1.png");
+}
+.advantages-item__text{
+    font-family: $mainFont;
+    font-weight: $bold-weight;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: $color__text--primary;
+}
